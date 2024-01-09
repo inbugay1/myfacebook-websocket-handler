@@ -8,6 +8,8 @@ linters-settings:
     max-complexity: 16
   maintidx:
     under: 10
+  gocognit:
+    min-complexity: 32
 linters:
   disable-all: false
   enable-all: true
