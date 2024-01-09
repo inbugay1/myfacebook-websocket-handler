@@ -1,0 +1,4 @@
+github.com/caarlos0/env/v6 v6.10.1 h1:t1mPSxNpei6M5yAeu1qtRdPAK29Nbcf/n3G7x+b3/II=
+github.com/caarlos0/env/v6 v6.10.1/go.mod h1:hvp/ryKXKipEkcuYjs9mI4bBCg+UI0Yhgm5Zu0ddvwc=
+github.com/inbugay1/httprouter v0.5.0 h1:bWEdd/6tWmcZVtTpq9jZ9jj/QatqirRihQ5/C6jNT44=
+github.com/inbugay1/httprouter v0.5.0/go.mod h1:sMSfFntIPtLWZHmJLnA4Z+/eLzNXx6o+kGwhgcbc40o=
