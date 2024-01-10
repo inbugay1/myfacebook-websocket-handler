@@ -1,0 +1,22 @@
+version: "3.7"
+services:
+  myfacebook_websocket_handler:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: myfacebook_websocket_handler
+    restart: on-failure
+    environment:
+      - MYFACEBOOK_API_BASE_URL=http://myfacebook:9092
+      - RMQ_HOST=myfacebook_rabbitmq
+    ports:
+      - ${HTTP_EXT_PORT}:${HTTP_INT_PORT}
+    env_file:
+      - .env
+    networks:
+      - myfacebook
+
+networks:
+  myfacebook:
+    driver: bridge
+    external: true
